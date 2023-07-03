@@ -1,0 +1,27 @@
+// search box input active blue border removed
+.search_box_input {
+    outline: none;
+}
+
+// Small screen logo image size
+.extra_small_screens_logo_img {
+    width: 6.5rem;
+    height: 100%;
+}
+
+
+// MEDIA QUERY < 250px
+@media screen and (max-width: 250px) {
+
+    #searchIcon {
+        display: none;
+    }
+
+    #logo {
+        // Small screen logo image size adjust
+        .extra_small_screens_logo_img {
+            width: 4.5rem;
+        }
+    }
+
+}

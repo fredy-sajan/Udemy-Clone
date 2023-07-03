@@ -1,0 +1,17 @@
+.search_box_input {
+  outline: none;
+}
+
+.extra_small_screens_logo_img {
+  width: 6.5rem;
+  height: 100%;
+}
+
+@media screen and (max-width: 250px) {
+  #searchIcon {
+    display: none;
+  }
+  #logo .extra_small_screens_logo_img {
+    width: 4.5rem;
+  }
+}/*# sourceMappingURL=header.css.map */
