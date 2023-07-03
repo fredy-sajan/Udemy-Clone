@@ -1,0 +1,39 @@
+// Carousel section start 
+.content_box_text_head{
+    max-width: 490px;
+}
+.content_box_text_para{
+    max-width: 490px;
+
+}
+#contentBox{
+    top: 15%;
+    left: 12%;
+}
+.prevBtn, .nextBtn{
+    width: 90px;
+    height: 90px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+@media screen and (min-width: 768px) and (max-width: 1130px){
+
+    #contentBox{
+        top: 4%;
+
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 973px){
+    #contentBox{
+        .content_box_text_head{
+            font-size: 1.65rem;
+        }
+        
+        .content_box_text_para{
+            font-size: 1.2rem;
+        }
+    }
+}
+// Carousel section end
