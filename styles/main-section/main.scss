@@ -38,6 +38,14 @@
 }
 // Carousel section end
 
-// Course info section start
+.eg .card{
+    overflow: hidden;
+}
 
-// Course info section end
+.eg img{
+    transition: transform 0.3s ease;
+}
+
+.eg img:hover{
+    transform: scale(1.3);
+}
