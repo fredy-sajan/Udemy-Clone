@@ -38,14 +38,14 @@
 }
 // Carousel section end
 
-.eg .card{
+.top_category_row .card{
     overflow: hidden;
 }
 
-.eg img{
+.top_category_row img{
     transition: transform 0.3s ease;
 }
 
-.eg img:hover{
+.top_category_row img:hover{
     transform: scale(1.3);
 }
